@@ -1,0 +1,14 @@
+:hardbreaks:
+**_analogi restoran_**
+
+lo sebagai pelanggan dan di programming kita sebut sebagai client. lo tau apa yang lo mau makan tapi lo nggak tau cara masaknya dan juga nggak punya bahannya. dan disini lo sebagai client, lo bisa buka aplikasi gofood, grabfood, dll untuk memesan apa yang lo mau.
+
+ke sisi dapur yang dimana kita sebut sebagai server. di sini semua bahan yang kita sebut data disimpan lalu juga ada chef yang menjadi logika/ program yang akan mengolah pesanan dari lo.
+
+dapur ini sifatnya tersembunyi dan lo sebagai client tidak dapat ke dapur sembarangan.
+
+selanjutnya ada pelayan atau bisa kita seput sebagai API yang membantu lo untuk mencatat apa aja pesanan lo dan nantinya pesanan lo tadi dianterin ke dapur agar dapat diolah oleh chefnya.
+1. lo buat pesanan (request) ke pelayan (API)
+2. pelayan akan mengantar pesanan (request) lo ke dapur (server)
+3. di dapur, chef (logika) akan mengolah pesanan (request)
+4. setelah selesai, pelayan (API) nganterin makanan (response) balik ke meja lo (client)

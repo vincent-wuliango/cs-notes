@@ -1,0 +1,23 @@
+:hardbreaks:
+**_dependency injection_**  
+to avoid tight coupling, we can decouple by using an interface.
+
+in example:  
+❌ keyboardA & keyboardB.  
+✅ keyboard interface, keyboardA implements keyboard, keyboardB implements keyboard.  
+
+**_open closed principle_**
+a class should be open for extension but closed for modification.
+
+this principle is very useful, we only need to add new class if there's a new feature without touching the exists code so we can avoid potential of bugs and errors.
+
+**_spring ioc (inversion of control)_**
+spring ioc = spring can create objects and inject them into our classes.
+
+**_annotations_**
+* component for telling spring to manage object of type order service
+* service for classes that contains business logic
+* repository for classes that interact with the database
+* controller for classes that handling web request
+
+we actually can use @service instead @component for service classes but its back depends on code style from team.
